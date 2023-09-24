@@ -1,0 +1,144 @@
+
+/************ Projects Css ************/
+.project {
+    padding: 80px 0;
+    position: relative;
+    background-color: black;
+  }
+  .project h2 {
+      font-size: 45px;
+      font-weight: 700;
+    text-align: center;
+    animation: updown 3s linear infinite;
+    @media (max-width:991px) {
+      font-size:30px;
+    }
+   
+  }
+  @keyframes updown {
+    0% {
+        transform: translateX(-20px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+  }
+  .project p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+   width: 90%;
+   @media (max-width:991px) {
+    font-size:14px;
+  }
+ 
+  }
+  
+ 
+  #cardstyle {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 24px;
+    width: 100%;
+    @media (max-width:991px) {
+      width: 100%;
+    }
+    
+  }
+
+  .cardimage
+  {
+    width: 100%;
+    height: 50%;
+  }
+
+  .cardbody
+  {
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 115.58%);
+  }
+
+  .cardbody .title
+  {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    @media (max-width:991px) {
+      font-size: 20px;
+     
+    }
+  }
+
+  .cardbody .description
+  {
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+    text-align: justify;
+    @media (max-width:991px) {
+      font-size: 12px;
+     
+    }
+  }
+
+  
+
+  #cardstyle .vvd{
+    color: white;
+    font-size:15px ;
+    font-weight: 600; 
+    border: 1px solid white;
+    padding: 10px 20px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s ease-in-out; 
+    z-index: 1;  
+    @media (min-width:465px)and (max-width:575px) {
+      font-size:15px;
+      font-weight: 500;
+      padding: 4px 13px;
+      
+    }
+    @media (min-width:576px)and (max-width:991px) {
+      font-size:13px;
+      font-weight: 500;
+      padding: 4px 13px;
+      
+    }
+  }
+
+  #cardstyle .vvd::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+  }
+  #cardstyle .vvd:hover {
+    color: white;    
+  }
+  #cardstyle .vvd:hover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+  .background-image-right {
+    top: 20%;
+    position: absolute;
+    bottom: 0;
+    width: 35%;
+    right: 0;
+    z-index: -4;
+  }
+  

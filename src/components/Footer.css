@@ -1,0 +1,107 @@
+/************ Footer Css ************/
+.footer {
+  
+    background-image: url('../assets/img/footer-bg.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    position: relative;
+  }
+  li{ list-style: none;}
+
+  .footer li a{
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #B8B8B8;
+    text-decoration: none;
+    text-transform: uppercase ;
+    @media (max-width:991px){
+      font-size: 11px;
+   }
+}
+  
+  .footer img {
+    width: 10%;
+    margin-right: 8px;
+  }
+  .footer h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem!important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    @media (max-width:991px){
+      font-size: 15px !important;
+      font-weight: 600;
+      margin-top: 20px;
+   }
+}  
+  .footer p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #B8B8B8;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    
+  }
+  .social-iconfooter
+  {
+    display: inline-block;
+  }
+
+  .social-iconfooter a {
+    width: 42px;
+    height: 42px;
+    background: rgba(217, 217, 217, 0.1);
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    @media (max-width:991px){
+      width: 35px;
+      height: 35px;
+   }
+  }
+
+  .social-iconfooter a::before {
+    content: "";
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+  
+}
+.social-iconfooter a:hover::before {
+    transform: scale(1);
+}
+  .social-iconfooter a img {
+    width: 60%;
+    padding-left: 5px;
+    z-index: 1;
+    transition: 0.3s ease-in-out;
+}
+.social-iconfooter a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+ 
+
+  /*Newsletter css*/
+  .newsletter-bx {
+    background: #FFFFFF;
+    border-radius: 55px;
+    color: #121212;
+    padding: 85px 125px;
+    margin-bottom: 80px;
+    margin-top: -122px;
+  }

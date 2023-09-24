@@ -1,0 +1,66 @@
+/************ Skills Css ************/
+.skill {
+    padding: 0 0 50px 0;
+    position: relative;
+  }
+  .skill-bx {
+    background: black;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+  }
+  .skill h2 {
+      font-size: 45px;
+      font-weight: 700;
+      animation: updown 3s linear infinite;
+      @media (max-width:767px) {
+        font-size:30px;
+      }
+  }
+  @keyframes updown {
+    0% {
+        transform: translateX(-15px);
+    }
+    50% {
+        transform: translateX(15px);
+    }
+    100% {
+        transform: translateX(-15px);
+    }
+  }
+  .skill p {
+      color: #B8B8B8;
+      font-size: 18px;
+      letter-spacing: 0.8px;
+      line-height: 1.5em;
+      margin: 14px 0 75px 0;
+      @media (max-width:767px) {
+        font-size:14px;
+      }
+  }
+  .skill-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .skill-slider .item img {
+    width: 30%;
+    margin: 0 auto 15px auto;
+    @media (max-width:767px) {
+      width: 20%;
+    }
+  }
+
+  .item h5 {
+    @media (max-width:767px) {
+      font-size:14px;
+    }
+  }
+  .background-image-left {
+    top: 28%;
+    position: absolute;
+    bottom: 0;
+    width: 40%;
+    z-index: -4;
+  }

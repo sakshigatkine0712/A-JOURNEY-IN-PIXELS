@@ -52,7 +52,7 @@ nav.navbar {
         font-size: 15px;
     }
     @media (max-width:767px) {
-       line-height: 28px; 
+       line-height: 30px; 
     }
     @media (min-width:768px)and (max-width: 991px){
         line-height: 30px; 
@@ -113,6 +113,11 @@ nav.navbar {
         height: 37px;
      }
 
+     @media (min-width:992px)and (max-width: 1199px){
+      width: 35px; 
+      height: 35px;
+   }
+
   }
   .social-icon a::before {
       content: "";
@@ -156,6 +161,10 @@ nav.navbar {
      {
         padding: 7px 16px;
      }
+     @media (min-width:992px)and (max-width: 1199px){
+      
+      padding: 7px 16px;
+   }
 
   }
   .navbar-text button span {

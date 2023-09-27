@@ -4,7 +4,7 @@ import css from "../assets/img/css.svg";
 import js from "../assets/img/js.svg";
 import bootstrap from "../assets/img/bootstrap.svg";
 import reactjs from "../assets/img/reactjs.svg";
-import github from "../assets/img/nav-icon2.svg";
+import github from "../assets/img/github-icon1.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";

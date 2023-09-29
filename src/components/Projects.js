@@ -38,7 +38,7 @@ export const Projects = () => {
       title:"A Journey in Pixels: Sakshi's Portfolio" ,
       description:"This project showcases my skills, projects, and qualifications. I built this project using ReactJS, along with HTML, CSS, and JavaScript",
       image: image4,
-      url:'https://github.com/sakshigatkine0712',
+      url:'https://sakshigatkine0712.github.io/A-JOURNEY-IN-PIXELS/',
     },
   ]
  

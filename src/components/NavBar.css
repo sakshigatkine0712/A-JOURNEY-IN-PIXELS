@@ -98,7 +98,10 @@ nav.navbar {
       line-height: 1;
       border: 1px solid rgba(255, 255, 255, 0.5);
 
-
+      @media (max-width:286px){
+        width: 24px !important;
+        height: 24px !important;
+    }
       @media (max-width:400px){
         width: 27px !important;
         height: 27px !important;
@@ -154,6 +157,7 @@ nav.navbar {
       font-size: 15px;
       padding: 4px 10px !important;
     }
+    
       @media (max-width:767px) {
         padding: 7px 16px;
      }

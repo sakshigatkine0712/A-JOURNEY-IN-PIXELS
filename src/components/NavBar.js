@@ -6,7 +6,7 @@ import logo from '../assets/img/logo.png'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
 import navIcon3 from '../assets/img/nav-icon3.svg'
-import pdf from '../assets/img/logo.png';
+import pdf from '../assets/img/resume.pdf';
 import { Link } from 'react-router-dom';
 
 

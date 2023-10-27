@@ -17,14 +17,14 @@ export const Projects = () => {
       title:'Caffeine Connection',
       description: "This website is a dummy site with no functionality added. This website is only for showcasing front-end skills. Technologies used : HTML, CSS, Javascript.",
       image:image1,
-      url:'https://sakshigatkine0712.github.io/Caffeine-Connection/#home',
+      url:'https://sakshigatkine0712.github.io/Caffeine-Connection/',
 
     },
     {
       title:"Tour And Travel" ,
       description:"This website is a dummy site with no functionality added. This website is only for showcasing front-end skills. Technologies used : HTML, CSS, Javascript.",
       image: image2,
-      url:'https://sakshigatkine0712.github.io/tour-and-travel/#home',
+      url:'https://sakshigatkine0712.github.io/tour-and-travel/',
     },
 
     
